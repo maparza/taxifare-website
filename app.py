@@ -1,6 +1,9 @@
 import streamlit as st
 import requests
 
+key = st.secrets.some_magic_api.key
+
+
 st.write('Welcome to my app')
 
 '''
